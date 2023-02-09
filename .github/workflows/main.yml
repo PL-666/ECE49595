@@ -1,0 +1,10 @@
+##################
+# WIP
+##################
+name: main CI
+
+# Consider adding "merge"
+on: [push, pull_request]
+
+jobs:
+  build:
