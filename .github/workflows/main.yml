@@ -8,3 +8,25 @@ on: [push, pull_request]
 
 jobs:
   build:
+    name: UnityGame
+    runs-on: ubuntu-latest  # FIXME: consider environment like macOS, windows
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # Enable large file system (lfs)
+          lfs: true
+      
+      # TODO: Cache
+
+      # TODO: Test
+
+      # TODO: Build
+
+      # Output
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build
+          path: build
+
