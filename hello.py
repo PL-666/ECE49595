@@ -1,3 +1,2 @@
-int("Test if branch works")
-print("Test if branch works 2")
+t("Test if branch works")
 print("Test if branch works 3")
