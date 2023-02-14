@@ -6,7 +6,10 @@ on: [push, pull_request]
 jobs:
   build:
     name: UnityGame
-    runs-on: ubuntu-latest  # FIXME: more environment like macOS, windows
+    runs-on:
+      matrix:
+        # Support windows, macOS, ubuntu
+        version: [windows-latest, macOS-latest, ubuntu-latest]
     steps:
       # Checkout
       - name: Checkout repository
