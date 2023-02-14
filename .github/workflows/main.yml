@@ -6,8 +6,11 @@ on: [push, pull_request]
 jobs:
   build:
     name: UnityGame
-    # Support windows, macOS, linux
-    runs-on: [self-hosted, windows-latest, macos-latest, ubuntu-latest]
+    runs-on:
+      strategy:
+        matrix:
+          # Support windows, macOS, linux
+          os: [windows-latest, macos-latest, ubuntu-latest]
     steps:
       # Checkout
       - name: Checkout repository
