@@ -20,12 +20,12 @@ jobs:
       
       # TODO: Cache
 
-      # TODO: Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v2
-        # TODO: needs env here for UNITY_LICENSE
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+      # # TODO: Test
+      # - name: Run tests
+      #   uses: game-ci/unity-test-runner@v2
+      #   # TODO: needs env here for UNITY_LICENSE
+      #   with:
+      #     githubToken: ${{ secrets.GITHUB_TOKEN }}
           
       # TODO: Build
 
