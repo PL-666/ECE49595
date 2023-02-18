@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           # Enable large file system (lfs)
-          lfs: true
+          lfs: false
       
       # TODO: Cache
 
