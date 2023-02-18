@@ -30,10 +30,15 @@ jobs:
       # TODO: Build
 
       # Lint for Python file (not used for Unity project)
-      - name: Lint with PEP 8
+      - name: Lint with Flake8
         run: |
-          pycodestyle --show-source --show-pep8 .
-
+          # 1. Install Flake8
+          python -m pip install --upgrade pip
+          pip install flake8 pytest pytest-cov
+          # 2. Linting
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+      
       # Output
       - uses: actions/upload-artifact@v2
         with:
