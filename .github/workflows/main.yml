@@ -1,26 +1,44 @@
 name: main CI
 
-# FIXME: do we need "merge" here?
-on: [push, pull_request]
+on: workflow_dispatch
 
 jobs:
   build:
     name: UnityGame
-    runs-on: ubuntu-latest  # FIXME: more environment like macOS, windows
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # Support windows, macos, linux
+        os: [windows-latest, macos-latest, ubuntu-latest]
     steps:
       # Checkout
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           # Enable large file system (lfs)
-          lfs: true
+          lfs: false
       
       # TODO: Cache
 
-      # TODO: Test
-
+      # # TODO: Test
+      # - name: Run tests
+      #   uses: game-ci/unity-test-runner@v2
+      #   # TODO: needs env here for UNITY_LICENSE
+      #   with:
+      #     githubToken: ${{ secrets.GITHUB_TOKEN }}
+          
       # TODO: Build
 
+      # Lint for Python file (not used for Unity project)
+      - name: Lint with Flake8
+        run: |
+          # 1. Install Flake8
+          python -m pip install --upgrade pip
+          pip install flake8 pytest pytest-cov
+          # 2. Linting
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+      
       # Output
       - uses: actions/upload-artifact@v2
         with:
