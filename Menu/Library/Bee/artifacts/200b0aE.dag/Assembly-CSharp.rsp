@@ -350,12 +350,13 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraManager.cs"
-"Assets/Scripts/Card.cs"
 "Assets/Scripts/LoadPrefs.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/PauseMenu.cs"
+"Assets/Scripts/SaveableObject.cs"
+"Assets/Scripts/SaveGameManager.cs"
+"Assets/Scripts/SpecificObject.cs"
 "Assets/Scripts/Timer.cs"
-"Assets/Scripts/Villager.cs"
 -langversion:9.0
 
 /deterministic
