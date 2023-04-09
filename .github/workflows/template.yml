@@ -50,8 +50,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          # FIXME: use a way to automate the finding of the project folder
-          projectPath: ${{ github.workspace }}/Menu_0.1
+          projectPath: ./
           # Test playMode and editMode
           testMode: all
 
