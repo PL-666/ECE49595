@@ -50,7 +50,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: ./
+          projectPath: ./Menu
           # Test playMode and editMode
           testMode: all
 
