@@ -50,6 +50,8 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
+          projectPath: ${{ github.workspace }}
+          # Test playMode and editMode
           testMode: all
 
       - uses: actions/upload-artifact@v2

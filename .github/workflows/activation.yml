@@ -1,6 +1,7 @@
 name: Get Unity license activation file
 
-on: push
+# This file is used only once
+on: workflow_dispatch
 
 jobs:
   requestManualActivationFile:
