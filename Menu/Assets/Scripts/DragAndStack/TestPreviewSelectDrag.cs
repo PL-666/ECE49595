@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TestPreviewSelectDrag : MonoBehaviour
@@ -14,13 +12,14 @@ public class TestPreviewSelectDrag : MonoBehaviour
     private float MouseDownX;
     private float MouseDownY;
     private float distanceToCamera;
-    
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         groudStateHeight = transform.lossyScale.y * 0.5f;
+
         selected = false;
 
 
@@ -59,8 +58,19 @@ public class TestPreviewSelectDrag : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Vector3 temp = transform.position;
-        transform.position = new Vector3(temp.x, groudStateHeight, temp.z);
+        MoveGround();
     }
 
+    private void MoveGround()
+    {
+        //0.5
+        Vector3 down = new Vector3(0, -transform.lossyScale.y * 0.1f, 0);
+
+         while((Mathf.Abs(transform.position.y - groudStateHeight) > groudStateHeight * 0.5f))
+        {
+            transform.Translate(down);
+        }
+
+        transform.position = new Vector3(transform.position.x, groudStateHeight, transform.position.z);
+    }
 }

@@ -55,7 +55,11 @@ public class TestCollision : MonoBehaviour
                     gameObject.GetComponent<TestPreviewSelectDrag>().selected = false;
                     gameObject.GetComponent<BoxCollider>().isTrigger = false;
                 }
-                spawnManager.SpawnChild(gameObject.transform.position);
+                if((gameObject.name == "BerryBush" && other.gameObject.name == "Villager") || (gameObject.name == "Villager" && other.gameObject.name == "BerryBush"))
+                {
+                    spawnManager.SpawnChild(gameObject.transform.position);
+                }
+                
             }
         }
 

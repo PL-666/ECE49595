@@ -8,9 +8,9 @@ public class SpawnChildManager : MonoBehaviour
 
     // public GameObject workerPrefab;
     public GameObject childPrefab;
-    private float spawnRangeX = 1.0f;
-    private float spawnRangeZ = 1.0f;
-    private float spawnInterval = 2.0f;
+    private float spawnRange = 1.8f;
+    // private float spawnInterval = 2.0f;
+    // recipe =
 
     void Start()
     {
@@ -36,10 +36,11 @@ public class SpawnChildManager : MonoBehaviour
 
     public void SpawnChild(Vector3 cardPos)
     {
-        float parentPosX = cardPos.x;
-        float parentPosZ = cardPos.z;
-        Instantiate(childPrefab, new Vector3(Random.Range(-spawnRangeX + parentPosX,
-         spawnRangeX + parentPosX), 0, Random.Range(-spawnRangeZ + parentPosZ,
-         spawnRangeZ + parentPosZ)), Quaternion.identity);
+        float spawnDir  = Random.Range(0,Mathf.PI);
+        float xoffset = spawnRange * Mathf.Cos(spawnDir);
+        float zoffset = -spawnRange * Mathf.Sin(spawnDir);
+        Vector3 spawnPos = new Vector3(cardPos.x+xoffset, cardPos.y,cardPos.z+zoffset);
+        Instantiate(childPrefab, spawnPos, gameObject.transform.rotation);
+        Debug.Log("???");
     }
 }
