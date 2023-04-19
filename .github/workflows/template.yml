@@ -207,11 +207,11 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: build-StandaloneLinux64
-          path: build
+          path: build/StandaloneLinux64
 
       - name: Display structure of root files
         run: ls -R
-        working-directory: build
+        working-directory: build/StandaloneLinux64
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
