@@ -197,7 +197,7 @@ jobs:
           path: build/StandaloneLinux64
 
   deployPages:
-    needs: [buildWindows, buildMacOS, buildLinux]
+    needs: buildLinux
     name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
     steps:
