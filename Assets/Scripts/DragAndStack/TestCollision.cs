@@ -74,6 +74,12 @@ public class TestCollision : MonoBehaviour
                 // if (card.stackableList.Contains(collision.gameObject.name))
                 {
                     Stack(other);
+<<<<<<< Updated upstream:Assets/Scripts/DragAndStack/TestCollision.cs
+=======
+                    Debug.Log(gameObject.name + " stack on " + other.gameObject.name);
+                    Debug.Log(gameObject.name + "collide with " + other.gameObject.name);
+                    Debug.Log("hello!");
+>>>>>>> Stashed changes:Menu/Assets/Scripts/DragAndStack/TestCollision.cs
                     gameObject.GetComponent<TestPreviewSelectDrag>().selected = false;
                     gameObject.GetComponent<BoxCollider>().isTrigger = false;
                 }

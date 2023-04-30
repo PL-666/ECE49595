@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Resources/Villager.prefab.meta
 guid: 73551ca9497104b2fb84610b0b16b41e
+=======
+guid: c1ac1e2b70dffaf4297f0565d2631772
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

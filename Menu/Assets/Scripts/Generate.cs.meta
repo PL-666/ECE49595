@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c04c7fa46642449ab3a4a1f93dbfce8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Villiager: {instanceID: 0}
+  - Berry: {instanceID: 0}
+  - BerryBush: {instanceID: 0}
+  - cardSpawnSound: {fileID: 8300000, guid: a5119b5acd8a3054f95a2c4fb440eb2d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

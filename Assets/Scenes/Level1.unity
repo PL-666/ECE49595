@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1089,6 +1089,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 565483059}
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
+=======
+  - component: {fileID: 565483060}
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
   - component: {fileID: 565483061}
   - component: {fileID: 565483062}
   - component: {fileID: 565483063}
@@ -1102,6 +1106,7 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &565483059
 Transform:
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1129,6 +1134,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &565483062
 MonoBehaviour:
+=======
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565483057}
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32154233fb9a944d2902ab8c15eea6f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &565483063
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &565483060
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565483057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
+  m_Script: {fileID: 11500000, guid: f87dc89a37b80e945b4f24cbedb78459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSpawnSound: {fileID: 8300000, guid: a5119b5acd8a3054f95a2c4fb440eb2d, type: 3}
+  cardClickSound: {fileID: 8300000, guid: 1949eb3841014ea44a2d613753222f2e, type: 3}
+  spawnSound: 0.7
+  clickSound: 1
+--- !u!82 &565483064
+=======
+  m_Script: {fileID: 11500000, guid: 6c04c7fa46642449ab3a4a1f93dbfce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Villiager: {fileID: 6418433628525261642, guid: c1ac1e2b70dffaf4297f0565d2631772, type: 3}
+  Berry: {fileID: 1128375692791059350, guid: d2224c01b681af24387de0aeac9de963, type: 3}
+  BerryBush: {fileID: 1853223631880413007, guid: 321778b7ea814444a9310a557da07b4c, type: 3}
+--- !u!114 &565483061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565483057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad51cfc6bb8941c096ff52d90dc2b96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &565483062
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1139,23 +1207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32154233fb9a944d2902ab8c15eea6f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &565483063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565483057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f87dc89a37b80e945b4f24cbedb78459, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardSpawnSound: {fileID: 8300000, guid: a5119b5acd8a3054f95a2c4fb440eb2d, type: 3}
-  cardClickSound: {fileID: 8300000, guid: 1949eb3841014ea44a2d613753222f2e, type: 3}
-  spawnSound: 0.7
-  clickSound: 1
---- !u!82 &565483064
+--- !u!82 &565483063
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1166,7 +1219,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
   m_PlayOnAwake: 1
+=======
+  m_PlayOnAwake: 0
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1251,6 +1308,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
+=======
+--- !u!114 &565483064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565483057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c181afcf533d4a42aae4d0ef4328f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSpawnSound: {fileID: 8300000, guid: a5119b5acd8a3054f95a2c4fb440eb2d, type: 3}
+  cardClickSound: {fileID: 8300000, guid: 1949eb3841014ea44a2d613753222f2e, type: 3}
+  spawnSound: 0.7
+  clickSound: 1
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
 --- !u!1 &584523148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1403,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5908847cc52bb4fc89c1c5e671470885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
 --- !u!1 &758425928
+=======
+--- !u!1 &865134931
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2009,7 +2089,11 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 54ea61a32c1095c4590df080ca9492eb, type: 3}
   m_PlayOnAwake: 1
+<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
   m_Volume: 0.9
+=======
+  m_Volume: 0.7
+>>>>>>> Stashed changes:Menu/Assets/Scenes/Level1.unity
   m_Pitch: 1
   Loop: 1
   Mute: 0
