@@ -38,9 +38,3 @@ Your pull request will be reviewed by the project's maintainers. They may ask fo
 
 ## Final Steps
 Once your pull request has been approved and merged into the main repository, your contribution will be added to the project. Thank you for contributing to our Unity project!
-
-
-
-
-
-
