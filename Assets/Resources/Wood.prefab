@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2113857021045773133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  - component: {fileID: 2113857021045773130}
+  - component: {fileID: 2113857021045773126}
+  - component: {fileID: 2113857021045773129}
+  - component: {fileID: 2113857021045773127}
+  - component: {fileID: 2113857021045773128}
+  - component: {fileID: 1818026051904823757}
+  - component: {fileID: 7923503683325357086}
+  - component: {fileID: 2045123808585963787}
+=======
+  - component: {fileID: 6418433628525261645}
+  - component: {fileID: 6418433628525261633}
+  - component: {fileID: 6418433628525261646}
+  - component: {fileID: 6418433628525261632}
+  - component: {fileID: 6418433628525261647}
+  - component: {fileID: 7221999263848284306}
+  - component: {fileID: 2767766327992892819}
+  - component: {fileID: 3895855480191789937}
+  - component: {fileID: -2042175266493176084}
+  - component: {fileID: 8461864507330100367}
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+  m_Layer: 0
+  m_Name: Wood
+  m_TagString: card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2113857021045773130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  m_GameObject: {fileID: 2113857021045773133}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 3.219054, y: 0, z: 0.05335007}
+=======
+  m_GameObject: {fileID: 6418433628525261642}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.005, z: 0}
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+  m_LocalScale: {x: 1, y: 0.01, z: 1.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+--- !u!33 &2113857021045773126
+=======
+--- !u!33 &6418433628525261633
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2113857021045773129
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  - {fileID: 2100000, guid: 0db0400cba86a419a83bf2bd15a00cde, type: 2}
+=======
+  - {fileID: 2100000, guid: d5fc6edb1024f40ec891f6f23bb6393e, type: 2}
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2113857021045773127
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 48
+  m_CollisionDetection: 0
+--- !u!65 &2113857021045773128
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  m_Center: {x: -0, y: 0, z: -0}
+--- !u!114 &1818026051904823757
+=======
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7221999263848284306
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19d1ea641c7b4f719791faa6759c0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  selfSlider: {fileID: 0}
+  stackableList: []
+--- !u!114 &7923503683325357086
+=======
+--- !u!114 &2767766327992892819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418433628525261642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de615d272e1d74a83919196c7a997e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generate: 0
+  scaleY: 0
+  groudStateHeight: 0.005
+  selected: 0
+  cardDown: 0
+  cardClickSound: {fileID: 8300000, guid: 1949eb3841014ea44a2d613753222f2e, type: 3}
+--- !u!114 &3895855480191789937
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  m_Script: {fileID: 11500000, guid: de615d272e1d74a83919196c7a997e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generate: 0
+  scaleY: 0
+  groudStateHeight: 0.05
+  selected: 0
+  cardDown: 0
+--- !u!114 &2045123808585963787
+=======
+  m_Script: {fileID: 11500000, guid: bab011ee0edd84b9c9e8d90a308cbc4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stackableList: []
+--- !u!114 &-2042175266493176084
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113857021045773133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335daa8f0caef4cec922a620eac7b724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Resources/Wood.prefab
+  UID: 
+  objectType: 6
+  parentID: 
+  strength: 0
+  health: 0
+=======
+  objectType: 0
+--- !u!82 &8461864507330100367
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418433628525261642}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+>>>>>>> Stashed changes:Menu/Assets/Resources/Villager.prefab
